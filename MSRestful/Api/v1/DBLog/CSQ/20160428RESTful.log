@@ -1,0 +1,27 @@
+2016/04/28 12:57:47	::1             	ERR	                                                            	数据库连接失败！ error information : [CacheProvider] Communication link failure: System.Net.Sockets.SocketException; 由于目标计算机积极拒绝，无法连接。 127.0.0.1:56773
+   在 InterSystems.Data.CacheClient.CacheADOConnection.Open()
+   在 InterSystems.Data.CacheClient.CacheConnection.Open(Boolean useCache)
+   在 InterSystems.Data.CacheClient.CacheConnection.Open()
+   在 MSRestful.CommonLibrary.DataConnection.Connect() 位置 f:\Work\5 863 EMR\HygeiaForQH\MSRestful\MSRestful\CommonLibrary\DataConnection.cs:行号 47
+2016/04/28 17:00:48	::1             	ERR	DeckInfoMethod.getBedInfoList                               	数据库操作异常！ error information : Column does not exist: PatientName
+   在 InterSystems.Data.CacheClient.CacheDataReader.GetOrdinal(String columnName)
+   在 InterSystems.Data.CacheClient.CacheDataReader.get_Item(String value)
+   在 MSRestful.DataMethod.DeckInfoMethod.getBedInfoList(DataConnection pclsCache, String id) 位置 f:\Work\5 863 EMR\HygeiaForQH\MSRestful\MSRestful\DataMethod\DeckInfoMethod.cs:行号 171
+2016/04/28 17:00:48	::1             	ERR	DeckInfoMethod.getSurgeryRoomInfoList                       	数据库操作异常！ error information : 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MSRestful.DataMethod.DeckInfoMethod.getSurgeryRoomInfoList(DataConnection pclsCache, String id) 位置 f:\Work\5 863 EMR\HygeiaForQH\MSRestful\MSRestful\DataMethod\DeckInfoMethod.cs:行号 226
+2016/04/28 17:01:18	::1             	ERR	DeckInfoMethod.getBedInfoList                               	数据库操作异常！ error information : Column does not exist: PatientName
+   在 InterSystems.Data.CacheClient.CacheDataReader.GetOrdinal(String columnName)
+   在 InterSystems.Data.CacheClient.CacheDataReader.get_Item(String value)
+   在 MSRestful.DataMethod.DeckInfoMethod.getBedInfoList(DataConnection pclsCache, String id) 位置 f:\Work\5 863 EMR\HygeiaForQH\MSRestful\MSRestful\DataMethod\DeckInfoMethod.cs:行号 171
+2016/04/28 17:01:19	::1             	ERR	DeckInfoMethod.getSurgeryRoomInfoList                       	数据库操作异常！ error information : 对象不能从 DBNull 转换为其他类型。
+   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 MSRestful.DataMethod.DeckInfoMethod.getSurgeryRoomInfoList(DataConnection pclsCache, String id) 位置 f:\Work\5 863 EMR\HygeiaForQH\MSRestful\MSRestful\DataMethod\DeckInfoMethod.cs:行号 226
+2016/04/28 17:02:33	::1             	ERR	DeckInfoMethod.getBedInfoList                               	数据库操作异常！ error information : Column does not exist: PatientName
+   在 InterSystems.Data.CacheClient.CacheDataReader.GetOrdinal(String columnName)
+   在 InterSystems.Data.CacheClient.CacheDataReader.get_Item(String value)
+   在 MSRestful.DataMethod.DeckInfoMethod.getBedInfoList(DataConnection pclsCache, String id) 位置 f:\Work\5 863 EMR\HygeiaForQH\MSRestful\MSRestful\DataMethod\DeckInfoMethod.cs:行号 171
+2016/04/28 20:29:22	::1             	ERR	DeliverInfoMethod.getDiagnosisInfoList                      	数据库操作异常！ error information : 无法将类型为“WhereSelectListIterator`2[MSRestful.DataModels.Ordering,System.Boolean]”的对象强制转换为类型“System.Collections.Generic.List`1[MSRestful.DataModels.Ordering]”。
+   在 MSRestful.DataMethod.DeliverInfoMethod.getDiagnosisInfoList(DataConnection pclsCache, String DepartmentCode, String Status, String ClinicDate, String PatientName) 位置 f:\Work\5 863 EMR\HygeiaForQH\MSRestful\MSRestful\DataMethod\DeliverInfoMethod.cs:行号 444
